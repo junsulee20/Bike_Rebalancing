@@ -10,8 +10,8 @@ export default function BikeRebalancingPlatform() {
   const [destinationStation, setDestinationStation] = useState(null);
 
   // API 설정값
-  const API_KEY = '494f6548506a756e38304273494961';
-  const API_BASE_URL = 'http://openapi.seoul.go.kr:8088';
+  // const API_KEY
+  // const API_BASE_URL
   
   // CORS 이슈를 해결하기 위한 프록시 설정 (필요시 사용)
   const useProxy = true;
